@@ -56,23 +56,11 @@ nav ul li a:hover {
     color: #F1603C;
 }
 
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        margin-top: 10px;
-    }
-}
-
-
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
-    grid-template-rows: auto auto auto; /* Auto height for rows */
-    grid-gap: 20px; /* Space between grid items */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto; 
+    grid-gap: 20px;
     padding:  40px 0px;
     max-width: 1000px;
     margin: 0 auto;
@@ -94,7 +82,7 @@ nav ul li a:hover {
 .title-box h2 {
     font-size: 1.8rem;
     line-height: 1.5;
-    flex-basis: 50%; /* Half of the container */
+    flex-basis: 50%; 
     padding-right: 20px;
 }
 
@@ -103,7 +91,7 @@ nav ul li a:hover {
 }
 
 .personal-photo {
-    flex-basis: 50%; /* The image takes the other half */
+    flex-basis: 50%; 
     display: flex;
     justify-content: flex-end;
 }
@@ -117,4 +105,32 @@ nav ul li a:hover {
     height: auto;
 }
 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    nav ul {
+        margin-top: 10px;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 10px;
+    }
+
+    .title-box {
+        grid-column: span 2; 
+        padding: 15px;
+    }
+
+    .title-box h2 {
+        font-size: small; 
+        padding-right: 10px;
+    }
+
+    .personal-photo img {
+        max-width: 50%; 
+    }
+
+}
