@@ -16,19 +16,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    border-radius: 10px;
+    padding: 20px ;
+    /* border-radius: 10px; */
 }
-
 
 header h1 {
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 50;
     margin: 0;
 }
 
 .highlight {
-    font-weight: 700;
+    font-weight: 800;
     color: #111;
 }
 
@@ -47,7 +46,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 1rem;
-    color: #92633E;
+    color: #344C36;
     font-weight: 400;
     transition: color 0.3s ease;
 }
@@ -97,7 +96,6 @@ nav ul li a:hover {
 }
 
 .personal-photo img {
-    
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
@@ -113,7 +111,6 @@ nav ul li a:hover {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1rem;
-
 }
 
 .contact-box {
@@ -157,6 +154,12 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+h2{
+    text-align: center;
+    grid-column: span 3; 
+    font-size: 2em;
+}
+
 .project-link {
     text-decoration: none; 
 }
@@ -191,6 +194,28 @@ nav ul li a:hover {
 
 .project-link:hover h3 {
     color: #344C36;
+}
+
+project-buttons {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e8e2d2;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle; 
+    
 }
 
 .social-media-links{
@@ -271,13 +296,18 @@ nav ul li a:hover {
         padding-right: 10px;
     }
 
-    .personal-photo img {
-        max-width: 50%; 
-    }
-
     .project-list {
         grid-template-columns: 1fr;
     }
- 
 
+    h2{
+        text-align: center;
+        grid-column: span 1; 
+        font-size: 1em;
+    }
+
+    .personal-photo img {
+        max-width: 100%;
+    }
+    
 }
