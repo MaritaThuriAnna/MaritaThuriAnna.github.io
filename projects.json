@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Pet Shop",
+        "imageURL": "images/pet_shop.JPG",
+        "gitHub": "https://github.com/MaritaThuriAnna/PetsShop",
+        "live": "https://maritathurianna.github.io/PetsShop/"
+    },
+    {
+        "title": "Tip Calculator",
+        "imageURL": "images/tip_calculator.JPG",
+        "gitHub": "https://github.com/MaritaThuriAnna/tip-calculator",
+        "live": "https://maritathurianna.github.io/tip-calculator/"
+    },
+    {
+        "title": "Currency Converter",
+        "imageURL": "images/currency_converter.JPG",
+        "gitHub": "https://github.com/MaritaThuriAnna/currency-converter",
+        "live": "https://maritathurianna.github.io/currency-converter/"
+    },
+    {
+        "title": "Hamburger Menu",
+        "imageURL": "images/hamburger-menu.JPG",
+        "gitHub": "https://github.com/MaritaThuriAnna/hamburger-menu",
+        "live": "https://maritathurianna.github.io/hamburger-menu/"
+    },
+    {
+        "title": "Back To Top",
+        "imageURL": "images/back-to-top.JPG",
+        "gitHub": "https://github.com/MaritaThuriAnna/backtotop",
+        "live": "https://maritathurianna.github.io/backtotop/"
+    }
+]
