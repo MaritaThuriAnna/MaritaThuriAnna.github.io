@@ -17,17 +17,25 @@ body {
 
 header {
     background-color: #F6F1E3;
+    text-align: center;
+}
+
+.head{
+    background-color: #F6F1E3;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    /* border-radius: 10px; */
+    padding: 40px;
+    max-width: 1200px;
+    /* width: 100%; */
+    margin:0 auto; 
 }
 
 header h1 {
     font-size: 1.8rem;
     font-weight: 50;
     margin: 0;
+    /* padding-left: 180px; */
 }
 
 .highlight {
@@ -41,6 +49,7 @@ nav ul {
     gap: 30px;
     margin: 0;
     padding: 0;
+    /* padding-right: 180px; */
 }
 
 nav ul li {
